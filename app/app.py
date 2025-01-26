@@ -7,6 +7,10 @@ from pdf_generator import generate_trip_pdf
 from prompt import get_trip_plan_prompt
 import requests
 
+headers ={ 
+   "authorization": st.secrets["GROQ_API_KEY"]
+}
+
 # Load environment variables
 load_dotenv()
 
