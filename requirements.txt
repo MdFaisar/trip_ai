@@ -2,3 +2,4 @@ streamlit
 reportlab
 groq
 python-dotenv
+beautifulsoup4
